@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BapuZonTech</title>
-    <link rel="stylesheet" href="homepage.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-</head>
+    <title>Your Landing Page</title>
+    <style>
+        /* Reset some default styles for consistency */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Define your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6600;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4500;
+        }
+
+        /* Add more styles as needed */
+
+    </style>
+</head>
 <body>
     <header>
-        <nav>
-            <img src="asset/carepy_logo-1.svg" alt="">
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="About.html" class="active">About</a></li>
-                <li><a href="#contact-loc">Contact Us</a></li>
-            </ul>
-            <div class="search">
-                <input type="text" placeholder="search">
-                <i class="ri-search-line"></i>
-            </div>
-        </nav>
-        <div class="landing">
-            <div class="intro">
-                <h3>Hello<Span>Welcome to</Span><br>Sailpoint IdentityNow<br>Consultant</h3>
-            </div>
-            <div class="socials">
-                <div class="line"></div>
-                <i class="ri-facebook-circle-fill" href="www.bapuzontech.tech"></i></a>
-                <i class="ri-twitter-fill" href="www.bapuzontech.tech"></i>
-                <i class="ri-linkedin-fill" href="www.bapuzontech.tech"></i>
-                <i class="ri-whatsapp-line" href="www.bapuzontech.tech"></i>
-            </div>
+        <div class="container">
+            <h1>Welcome to Our Website</h1>
+            <p>Your compelling message goes here. Use this space to engage your visitors.</p>
+            <a class="cta-button" href="#">Get Started</a>
         </div>
     </header>
-    
-    <section class="contact-me" id="contact-loc">
-        <h1>Contact Me</h1>
-        <div class="contact">
-            <div class="contact-card">
-                <i class="ri-message-3-line"></i>
-                <a href="www.bapuzontech.tech">www.bapuzontech.tech</a>
-            </div>
-            <div class="contact-card">
-                <i class="ri-phone-line"></i>
-                <p>9999999999</p>
-            </div>
-            <div class="contact-card">
-                <i class="ri-map-pin-3-line"></i>
-                <p>Hyderabad,Telangana, India</p>
-            </div>
-        </div>
-    </section>
-    <script src="script.js"></script>
-</body>
 
+    <div class="container">
+        <section>
+            <h2>About Us</h2>
+            <p>Information about your company and what you offer.</p>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <p>Highlight key features or services.</p>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>Contact information and a contact form can go here.</p>
+        </section>
+    </div>
+
+    <!-- Add more sections and content as needed -->
+
+</body>
 </html>
