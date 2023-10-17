@@ -40,22 +40,25 @@
             margin-bottom: 30px;
         }
 
-        .cta-button {
-            display: inline-block;
-            background-color: #ff6600;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
         }
 
-        .cta-button:hover {
-            background-color: #ff4500;
+        .navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ff6600;
         }
 
         /* Add more styles as needed */
-
     </style>
 </head>
 <body>
@@ -68,17 +71,24 @@
     </header>
 
     <div class="container">
-        <section>
+        <!-- Navbar -->
+        <div class="navbar">
+            <a href="#section1">About Us</a>
+            <a href="#section2">Features</a>
+            <a href="#section3">Contact Us</a>
+        </div>
+
+        <section id="section1">
             <h2>About Us</h2>
             <p>Information about your company and what you offer.</p>
         </section>
 
-        <section>
+        <section id="section2">
             <h2>Features</h2>
             <p>Highlight key features or services.</p>
         </section>
 
-        <section>
+        <section id="section3">
             <h2>Contact Us</h2>
             <p>Contact information and a contact form can go here.</p>
         </section>
